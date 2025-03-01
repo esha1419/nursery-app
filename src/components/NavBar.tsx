@@ -3,9 +3,7 @@ import React from 'react'
 export default function NavBar() {
   return (
     <div>
-
-
-<nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Navbar</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,8 +23,6 @@ export default function NavBar() {
     </div>
   </div>
 </nav>
-
-
 
     </div>
   )

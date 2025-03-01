@@ -13,7 +13,7 @@ export default function Registration() {
 
     const userjson = {  email,fullName, mobileNo };
 
-    axios.post("http://localhost:8080/basha/add/user", userjson).then((res) => {
+    axios.post("http://localhost:8080/nursery/add/user", userjson).then((res) => {
       console.log("res--->" + res.data);
     });
   };
@@ -93,6 +93,7 @@ export default function Registration() {
                 <br></br>
                 <div className="form-row">
                   <button type="submit" className="btn btn-danger">
+                    
                     Submit
                   </button>
                 </div>
