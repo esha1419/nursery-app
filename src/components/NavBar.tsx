@@ -11,13 +11,13 @@ export default function NavBar() {
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
-        <a className="nav-link active" aria-current="page" href="/add">landing page</a>
-        <a className="nav-link" href="/">plant categories</a>
-        <a className="nav-link" href="/search">plant details page</a>
-        <a className="nav-link" href="/delete">user registration/login</a>
-        <a className="nav-link" href="/delete">user shopping cart</a>
-        <a className="nav-link" href="/delete">user search & Filters</a>
-        <a className="nav-link" href="/delete">user order Histort</a>
+        <a className="nav-link active" aria-current="page" href="/add">NURSERY</a>
+        <a className="nav-link" href="/">POPULAR PLANTS</a>
+        <a className="nav-link" href="/search">PLANT CANTEGORIES</a>
+        <a className="nav-link" href="/delete">SHOPPING CART</a>
+        <a className="nav-link" href="/delete">SEARCH PLANT</a>
+        <a className="nav-link" href="/delete">ORDER HISTORY</a>
+       
        
        </div>
     </div>
