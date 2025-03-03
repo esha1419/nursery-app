@@ -8,13 +8,14 @@ export default function LandingPage() {
 
     
     
-    <div>
+
+    <div  >
   
     <meta charSet="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Landing Page</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
-    
+    <div className='hero-section '>
 
 <body>
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -48,15 +49,16 @@ export default function LandingPage() {
     </nav>
     <div className="hero-section">
         <div>
-            <h1>WELCOME TO LEAFY DREAMS</h1>
-            <p>DELIVERING PLANTS....DELIVERING HAPPINESS</p>
+            <h1>        WELCOME TO LEAFY DREAMS         </h1>
+            <p>CUSTOMISE YOUR GARDEN....</p>
             
         </div>
     </div>
     <footer className="bg-dark text-white text-center py-4">
-        <p>&copy; 2025 MySite. All Rights Reserved.</p>
+        <p>LEAFY DREAMS MANAGEMENT</p>
         
     </footer>
+
     <a href="#" className="btn btn-primary btn-lg">NURSERY</a>
     <a href="#" className="btn btn-primary btn-lg">PLANT CATEGORIES</a>
     <a href="#" className="btn btn-primary btn-lg">POPULAR PLANTS</a>
@@ -70,7 +72,7 @@ export default function LandingPage() {
 
 
 
-
+</div>
   </div>
   )
 }
